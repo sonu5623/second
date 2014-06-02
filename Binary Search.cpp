@@ -1,7 +1,7 @@
 int bs(int l,int r,int c)
 	{
 	  if(l>r)
-	  return 0;
+	  return -1; // not found
 	  int mid = (l+r)/2;
 	   if(prime[mid] == c)
 	  return mid;
